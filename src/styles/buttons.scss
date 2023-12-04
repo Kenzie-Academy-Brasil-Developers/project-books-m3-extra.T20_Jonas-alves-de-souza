@@ -1,0 +1,22 @@
+.btn{
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    color: white;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    grid: 0.6rem;
+
+    padding: 0 0.9375rem;
+    height: 3.1875rem;
+
+    border-radius: 0.5rem;
+    background: var(--color-primary);
+
+    transform: 0.4s;
+
+    &:hover{
+        filter: brightness(1.2);
+    }
+}
